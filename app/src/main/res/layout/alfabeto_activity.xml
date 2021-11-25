@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B00B7FF">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/imgprincipal_foreground" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="349dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btA"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda8"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btB"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda7"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btC"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher8"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btD"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda10"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btE"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda11"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btF"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda12"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btG"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableEnd="@mipmap/ic_launcher_foregrounda13"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btH"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableEnd="@mipmap/ic_launcher_foregrounda14"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btI"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda15"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btJ"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableEnd="@mipmap/ic_launcher_foregrounda16"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btK"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda17"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btL"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda18"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btM"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda189"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btN"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher20"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btO"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher21"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btP"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda22"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btQ"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher23"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btR"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher24"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btS"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher25"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btT"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda26"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btU"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher27"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btV"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda28"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btW"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher29"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btX"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher30"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btY"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda31"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btZ"
+                    android:layout_width="113dp"
+                    android:layout_height="124dp"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@mipmap/ic_launcher_foregrounda32"
+                    android:text="" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

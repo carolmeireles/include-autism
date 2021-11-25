@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B00B7FF"
+    tools:context=".Controller.DashboardActivity">
+
+
+    <Button
+        android:id="@+id/btRotina"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="32dp"
+        android:background="#00FFFFFF"
+        android:drawableBottom="@mipmap/rotinabutton_foreground"
+        android:text="ROTINA"
+        app:layout_constraintBottom_toTopOf="@+id/btInteracao"
+        app:layout_constraintEnd_toStartOf="@+id/btAlfabeto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btJogoMemoria"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="50dp"
+        android:background="#00FFFFFF"
+        android:drawableBottom="@mipmap/memoria_foreground"
+        android:text="JOGO DA MEMÓRIA"
+        app:layout_constraintBottom_toBottomOf="@+id/btInteracao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btInteracao"
+        app:layout_constraintTop_toTopOf="@+id/btInteracao" />
+
+    <Button
+        android:id="@+id/btInteracao"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="130dp"
+        android:background="#00FFFFFF"
+        android:drawableBottom="@mipmap/interacao_foreground"
+        android:text="INTERAÇÃO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btJogoMemoria"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btRotina" />
+
+    <Button
+        android:id="@+id/btAlfabeto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="70dp"
+        android:background="#00FFFFFF"
+        android:drawableBottom="@mipmap/alfabetoreal_foreground"
+        android:text="ALFABETO"
+        app:layout_constraintBottom_toBottomOf="@+id/btRotina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btRotina"
+        app:layout_constraintTop_toTopOf="@+id/btRotina" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="159dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/btRotina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/imgprincipal_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

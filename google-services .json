@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "93886329336",
+    "firebase_url": "https://include-autism.firebaseio.com",
+    "project_id": "include-autism",
+    "storage_bucket": "include-autism.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93886329336:android:dfc8148905d0df5383e60d",
+        "android_client_info": {
+          "package_name": "com.example.dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93886329336-5j5qk469tj5mh1utlitk2ao1lc9fgp70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dashboard",
+            "certificate_hash": "c11f2bca1ec9e8e2ad27c682eb8e022a1fe84f73"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABgcALa_bau94_dxrPNqWoeWUBiWGUe2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93886329336-0hppp58sjt3bftisv7i9iqf2oqqrd8v6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

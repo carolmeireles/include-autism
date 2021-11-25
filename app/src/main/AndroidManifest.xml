@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dashboard">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+        android:resizeable="true"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controller.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controller.RotinaUsuarioActivity"></activity>
+        <activity android:name=".Controller.JogoNivelDoisActivity"></activity>
+        <activity android:name=".Controller.AlfabetoActivity"></activity>
+        <activity android:name=".Controller.JogoNivelTresActivity"></activity>
+        <activity android:name=".Controller.JogoMemoriaActivity"></activity>
+        <activity android:name=".Controller.InteracaoActivity"></activity>
+        <activity android:name=".Controller.SegundaActivity"></activity>
+        <activity android:name=".Controller.AreaResponsavelActivity"></activity>
+        <activity android:name=".Controller.AutenticacaoResponsavelActivity"></activity>
+        <activity android:name=".Controller.InserirImagemActivity"></activity>
+        <activity android:name=".Controller.DiasSemanaActivity"></activity>
+        <activity android:name=".Controller.SegundaUsuarioActivity"></activity>
+        <activity android:name=".Controller.TercaActivity"></activity>
+        <activity android:name=".Controller.QuartaActivity"></activity>
+        <activity android:name=".Controller.QuintaActivity"></activity>
+        <activity android:name=".Controller.SextaActivity"></activity>
+        <activity android:name=".Controller.SabadoActivity"></activity>
+        <activity android:name=".Controller.DomingoActivity"></activity>
+        <activity android:name=".Controller.DashboardActivity"></activity>
+        <activity android:name=".Controller.TercaUsuarioActivity"></activity>
+        <activity android:name=".Controller.QuartaUsuarioActivity"></activity>
+        <activity android:name=".Controller.QuintaUsuarioActivity"></activity>
+        <activity android:name=".Controller.SextaUsuarioActivity"></activity>
+        <activity android:name=".Controller.SabadoUsuarioActivity"></activity>
+        <activity android:name=".Controller.DomingoUsuarioActivity"></activity>
+        <activity android:name=".Controller.RecuperarSenhaActivity"></activity>
+        <activity android:name=".Controller.RelatorioRotinaActivity"></activity>
+
+
+
+
+    </application>
+
+
+</manifest>

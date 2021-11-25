@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B00B7FF"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtRotina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRotina">
+
+        <TextView
+            android:id="@+id/txtRotina1"
+            android:layout_width="208dp"
+            android:layout_height="41dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina2"
+            android:layout_width="203dp"
+            android:layout_height="41dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina3"
+            android:layout_width="204dp"
+            android:layout_height="41dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina4"
+            android:layout_width="202dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina5"
+            android:layout_width="195dp"
+            android:layout_height="38dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina6"
+            android:layout_width="191dp"
+            android:layout_height="39dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina7"
+            android:layout_width="191dp"
+            android:layout_height="39dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina8"
+            android:layout_width="197dp"
+            android:layout_height="39dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina9"
+            android:layout_width="199dp"
+            android:layout_height="37dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina10"
+            android:layout_width="195dp"
+            android:layout_height="39dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina11"
+            android:layout_width="195dp"
+            android:layout_height="35dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRotina12"
+            android:layout_width="198dp"
+            android:layout_height="38dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="dd-mm-aaaa"
+        app:layout_constraintEnd_toStartOf="@+id/btconsulta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtinfo" />
+
+    <TextView
+        android:id="@+id/txtinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="27dp"
+        android:text="Digite a data que deseja realizar a consulta"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btconsulta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRotina"
+        android:layout_width="327dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="11dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btconsulta" />
+
+    <Button
+        android:id="@+id/btconsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="18dp"
+        android:background="#FFFFFF"
+        android:text="Consultar"
+        android:textColor="#0A0000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtRotina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etdate"
+        app:layout_constraintTop_toBottomOf="@+id/txtinfo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

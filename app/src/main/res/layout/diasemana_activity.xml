@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B00B7FF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/imgprincipal_foreground" />
+
+    <Button
+        android:id="@+id/bt_segunda"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="38dp"
+        android:background="#FFFFFF"
+        android:text="Segunda-Feira"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <Button
+        android:id="@+id/bt_terca"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:text="TERÇA-FEIRA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bt_segunda"
+        app:layout_constraintTop_toBottomOf="@+id/bt_segunda" />
+
+    <Button
+        android:id="@+id/bt_domingo"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:text="DOMINGO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bt_sabado"
+        app:layout_constraintTop_toBottomOf="@+id/bt_sabado" />
+
+    <Button
+        android:id="@+id/bt_sabado"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:text="SÁBADO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bt_sexta"
+        app:layout_constraintTop_toBottomOf="@+id/bt_sexta" />
+
+    <Button
+        android:id="@+id/bt_sexta"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:text="SEXTA-FEIRA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bt_quinta"
+        app:layout_constraintTop_toBottomOf="@+id/bt_quinta" />
+
+    <Button
+        android:id="@+id/bt_quarta"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:text="QUARTA-FEIRA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bt_terca"
+        app:layout_constraintTop_toBottomOf="@+id/bt_terca" />
+
+    <Button
+        android:id="@+id/bt_quinta"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:text="QUINTA-FEIRA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bt_quarta"
+        app:layout_constraintTop_toBottomOf="@+id/bt_quarta" />
+</androidx.constraintlayout.widget.ConstraintLayout>

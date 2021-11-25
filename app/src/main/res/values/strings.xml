@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Include Autism</string>
+    <string name="title_activity_rotina">rotina</string>
+    <string name="sair">Sair</string>
+    <string name="Sair">Sair</string>
+    <string name="Responsavel">Responsavel</string>
+    <string name="AreadoResponsavel">Área do Responsável</string>
+    <string name="areadoResponsavel">Área do Responsável</string>
+
+    <string-array name="diassemana">
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+
+
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B00B7FF"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="196dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_segunda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/imgprincipal_foreground" />
+
+    <Button
+        android:id="@+id/bt_quinta"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="7dp"
+        android:background="#26C995"
+        android:text="quinta-feira"
+        android:textAlignment="center"
+        android:textColor="#0F0C0C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_sexta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_quarta" />
+
+    <Button
+        android:id="@+id/bt_segunda"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFC600"
+        android:text="Segunda-feira"
+        android:textAlignment="center"
+        android:textColor="#0E0000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_terca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/bt_terca"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="#6E7BF1"
+        android:text="terça-feira"
+        android:textColor="#0A0000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_quarta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_segunda" />
+
+    <Button
+        android:id="@+id/bt_quarta"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FA0909"
+        android:text="quarta-feira"
+        android:textAlignment="center"
+        android:textColor="#0C0B0B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_quinta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_terca" />
+
+    <Button
+        android:id="@+id/bt_sexta"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#AC0AC5"
+        android:text="sexta-feira"
+        android:textAlignment="center"
+        android:textColor="#181010"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_sabado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_quinta" />
+
+    <Button
+        android:id="@+id/bt_sabado"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="9dp"
+        android:background="#A22C2C"
+        android:text="sábado"
+        android:textAlignment="center"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_domingo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_sexta" />
+
+    <Button
+        android:id="@+id/bt_domingo"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="125dp"
+        android:background="#4C6D08"
+        android:text="domingo"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_sabado" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="309dp"
+        android:layout_height="316dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt_quinta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@mipmap/relogiobela_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
